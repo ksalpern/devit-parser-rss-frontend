@@ -22,8 +22,8 @@ function App() {
 
   return (
     <>
-      <h1 className="text-xl font-semibold text-center mt-5">Scraping</h1>
-      <div className="flex flex-col gap-2 w-3/4 border border-blue-600 rounded-md mx-auto mt-5 p-5">
+      <h1 className="text-xl font-semibold text-center mt-5 text-slate-300">Scraping</h1>
+      <div className="flex flex-col gap-2 w-3/4 rounded-md mx-auto mt-5 p-5">
         {articles.map((item, i) => (
           <Feed
             key={i}

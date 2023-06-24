@@ -10,9 +10,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #1F1F1F url(../public/2.jpg) no-repeat center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #686868;
 }
